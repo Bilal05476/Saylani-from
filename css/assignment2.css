@@ -1,0 +1,83 @@
+/* main page styling */
+
+body{
+    font-family: sans-serif;
+}
+.logo{
+    display: block;
+    margin: 1px auto;
+}
+#container{
+    text-align:center;
+}
+
+.mainform{
+    background-color: blueviolet;
+    height: auto;
+    color: #fff;
+    padding: 5px;
+    width: auto;
+}
+.headline{
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: 600;
+    color: blueviolet;
+    text-align: center;
+}
+button .submit{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: medium;
+}
+button .reset{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: medium;
+}
+
+label{
+    display: inline-block;
+    width: 200px;
+}
+table{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+
+/* submittion page styling */
+
+.checkedmark{
+    display: block;
+    margin: 1px auto;
+}
+.submit{
+    margin-top: 100px;
+}
+
+.thanks{
+    color: green;
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+}
+.sub-msg{
+    color:purple;
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+}
+.return-link{
+    text-align: center;
+
+} 
+a{
+    color: purple;
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2 Saylani form</title>
+    <link href="css/assignment2.css" rel="stylesheet">
+</head>
+<body>
+    <img class="logo" src="images/Saylani-logo.png">
+    <p class="headline">STUDENT REGISTRATION FORM</p>
+<form action="">
+    <div class="mainform">
+        <label for="first name">FIRST NAME</label>
+        <input type="text" name="firstname" placeholder="Enter first name">(max 30 character a-z and A-Z)</p>
+        <label for="last name">LAST NAME</label>
+        <input type="text" name="lastname" placeholder="Enter last name">(max 30 character a-z and A-Z)</p>
+        <label for="date of birth">DATE OF BIRTH</label>
+        <input type="date" name="DOB"></p>
+        <label for="email">EMAIL</label>
+        <input type="email" name="Email" placeholder="Enter your Email"></p>
+        <label for="mobile number">MOBILE NUMBER</label>
+        <input type="number" name="Mobile number" placeholder="Enter mobile number">(10 digit number)</p>
+        <label for="gneder">GENDER</label>
+		<input type="radio" value="Male" name="Gender"> Male
+        <input type="radio" value="Female" name="Gender"> Female</p>
+        <label for="address">ADDRESS</label>
+		<textarea name="address" cols="40" rows="4" >
+        </textarea></p>
+        <label for="city">CITY</label>
+        <input type="text" name="Cityname" placeholder="Enter city name">(max 20 character a-z and A-Z)</p>
+        <label for="pincode">PINCODE</label>
+        <input type="number" name="PINCODE" placeholder="Enter Pincode">(6 digits number)</p>
+        <label for="state">STATE</label>
+        <input type="text" name="STATE" placeholder="Enter State">(max 30 character a-z and A-Z)</p>
+        <label for="country">COUNTRY</label>
+        <input type="text" name="COUNTRY" placeholder="Enter Country"></p>
+        <label for="hobbies">HOBBIES</label>
+            <input type="checkbox" value="drawing" name="hobbies"> Drawing
+            <input type="checkbox" value="cricket" name="hobbies"> Cricket
+            <input type="checkbox" value="hockey" name="hobbies"> Hockey
+            <input type="checkbox" value="football" name="hobbies"> Football
+            <input type="checkbox" name="hobbies">Others
+            <input type="text" name="others">
+        </p>
+        
+        <lable for="qualification">QUALIFICATION</lable>
+        <table width = "950" cellpadding = "5" cellspacing = "5">
+        <thead><tr>
+            <th>S.No.</th>
+            <th>Examination</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year of Passing</th>
+            </tr></thead>
+        <tbody>
+            <tr>
+            <td>1</td>
+            <th>Class X</th>
+            <td bgcolor="#fff"></td>
+            <td bgcolor="#fff"></td>
+            <td bgcolor="#fff"></td>
+            </tr>
+            <tr>
+            <td>2</td>
+            <th>Class XII</th>
+            <td bgcolor="#fff"></td>
+            <td bgcolor="#fff"></td>
+            <td bgcolor="#fff"></td>
+            </tr>
+            <tr>
+            <td>3</td>
+            <th>Graduation</th>
+            <td bgcolor="#fff"></td>
+            <td bgcolor="#fff"></td>
+            <td bgcolor="#fff"></td>
+            </tr>
+            <tr>
+            <td>4</td>
+            <th>Master</th>
+            <td bgcolor="#fff"></td>
+            <td bgcolor="#fff"></td>
+            <td bgcolor="#fff"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+            <td></td>
+            <th></th>
+            <td>(30 char max)</td>
+            <td>upto 2 decimal</td>
+            </tr>
+        </tfoot>
+</table>
+
+
+        <label for="courses">COURSES<br>APPLIED FOR</label>
+            <input type="radio" value="BCA" name="courses"> BCA
+            <input type="radio" value="B.com" name="courses"> B.com
+            <input type="radio" value="B.Sc" name="courses"> B.Sc
+            <input type="radio" value="B.A" name="courses"> B.A
+        </p>
+
+    <div id="container">
+        <button><a class="submit" href="index2.html">Submit</a></button>
+        <button><a class="reset" href="index.html">Reset</a></button>
+    </div>
+</div>
+</form> 
+</body>
+</html>
